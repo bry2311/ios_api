@@ -17,3 +17,9 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::get('/surat/tk','SuratController@tkData');
+Route::get('/surat/sd','SuratController@sdData');
+Route::get('/surat/smp','SuratController@smpData');
+Route::get('/surat/sma','SuratController@smaData');
+Route::get('/surat/komplek','SuratController@komplekData');
