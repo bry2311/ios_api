@@ -23,3 +23,9 @@ Route::get('/surat/sd','SuratController@sdData');
 Route::get('/surat/smp','SuratController@smpData');
 Route::get('/surat/sma','SuratController@smaData');
 Route::get('/surat/komplek','SuratController@komplekData');
+
+Route::get('/dokumentasi/tk','DokumentasiController@tkData');
+Route::get('/dokumentasi/sd','DokumentasiController@sdData');
+Route::get('/dokumentasi/smp','DokumentasiController@smpData');
+Route::get('/dokumentasi/sma','DokumentasiController@smaData');
+Route::get('/dokumentasi/komplek','DokumentasiController@komplekData');
