@@ -29,3 +29,5 @@ Route::get('/dokumentasi/sd','DokumentasiController@sdData');
 Route::get('/dokumentasi/smp','DokumentasiController@smpData');
 Route::get('/dokumentasi/sma','DokumentasiController@smaData');
 Route::get('/dokumentasi/komplek','DokumentasiController@komplekData');
+
+Route::get('/event/{tgl}','EventController@getEvent');
